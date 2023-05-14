@@ -1,0 +1,3 @@
+﻿  Date.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: nierozpoznany symbol zewnętrzny main przywołany w funkcji "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\benz_\Source\Repos\OOP project with header files example\x64\Debug\OOP project with header files example.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1
