@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki żródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Structs - default member initialization.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Defining program define-types.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum classes I - enums in enums classes are not ints.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum classes I - enums in enums classes dont convert into ints.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum classes IV - using enums statement with switch.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Scoped enumerators II - input with static cast.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Scoped enumerators III - conversion of scoped enums to ints with operator overload.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs - accesing members.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs - aggregate initialization - const structs.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs - aggregate initialization - missing initializers.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs - aggregate initialization.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs - desgined initializers.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscoped enumeration input and output I - default int values.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscoped enumeration input and output I - newly set int values.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscoped enumeration input and output III - printing enums with switch.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscoped enumeration input and output IV - printing enums with switch and operator overload.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscoped enumeration input and output V - int to enum conversion - with input.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscoped enumeration input and output V - int to enum conversion.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscoped enumerations I.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscoped enumerations II - enumerated types are distinct types.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Unscopped enumerations III - usage.cpp">
+      <Filter>Pliki żródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
