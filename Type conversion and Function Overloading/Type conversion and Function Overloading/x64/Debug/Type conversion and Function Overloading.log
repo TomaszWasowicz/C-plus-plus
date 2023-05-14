@@ -1,0 +1,7 @@
+﻿  Numeric conversions.cpp
+C:\Users\benz_\Source\Repos\Type conversion and Function Overloading\Type conversion and Function Overloading\Numeric conversions.cpp(7,10): warning C4244: "inicjowanie": konwersja z "short" do "char", możliwa utrata danych
+C:\Users\benz_\Source\Repos\Type conversion and Function Overloading\Type conversion and Function Overloading\Numeric conversions.cpp(12,8): warning C4244: "inicjowanie": konwersja z "double" do "int", możliwa utrata danych
+C:\Users\benz_\Source\Repos\Type conversion and Function Overloading\Type conversion and Function Overloading\Numeric conversions.cpp(16,13): warning C4305: "inicjowanie": obcięcie z "int" do "bool"
+C:\Users\benz_\Source\Repos\Type conversion and Function Overloading\Type conversion and Function Overloading\Numeric conversions.cpp(17,15): warning C4305: "inicjowanie": obcięcie z "double" do "bool"
+C:\Users\benz_\Source\Repos\Type conversion and Function Overloading\Type conversion and Function Overloading\Numeric conversions.cpp(24,11): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+  Type conversion and Function Overloading.vcxproj -> C:\Users\benz_\Source\Repos\Type conversion and Function Overloading\x64\Debug\Type conversion and Function Overloading.exe
