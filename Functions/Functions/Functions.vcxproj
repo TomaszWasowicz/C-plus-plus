@@ -19,11 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Command line argument int argc, char argv.cpp" />
     <ClCompile Include="Function pointers - std function.cpp" />
     <ClCompile Include="Function pointers I.cpp" />
     <ClCompile Include="Lambda captures.cpp" />
     <ClCompile Include="Lambda functions I.cpp" />
     <ClCompile Include="Lambda functions II.cpp" />
+    <ClCompile Include="Recursion I.cpp" />
+    <ClCompile Include="Recursion II.cpp" />
+    <ClCompile Include="Recursion III nth Fibonacci number.cpp" />
+    <ClCompile Include="Recursion IV nth Fibonacci number II.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
