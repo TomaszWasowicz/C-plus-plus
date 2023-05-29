@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Auto - Type deduction and const pointers.cpp" />
+    <ClCompile Include="The difference between auto and auto pointer.cpp" />
+    <ClCompile Include="Type deduction and const references.cpp" />
+    <ClCompile Include="Type deduction with pointers, references and const - droping references.cpp" />
+    <ClCompile Include="Type deduction with pointers.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

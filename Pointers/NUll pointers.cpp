@@ -1,6 +1,6 @@
 #include<iostream>
 
-void someFunction()
+void someFunction(int* ptr)
 {
     std::cout << "boop" << '\n';
 }
