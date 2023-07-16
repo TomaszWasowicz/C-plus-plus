@@ -1,1 +1,2 @@
 C:\Users\benz_\Source\Repos\Pointers\x64\Debug\Pointers.exe
+C:\Users\benz_\Source\Repos\Nauka-Cpp\Pointers\x64\Debug\Pointers.exe

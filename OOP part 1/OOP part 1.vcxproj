@@ -126,22 +126,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Destructors I.cpp" />
-    <ClCompile Include="Destructors II.cpp" />
-    <ClCompile Include="Friend function I.cpp" />
-    <ClCompile Include="Friend function II - bool check.cpp" />
-    <ClCompile Include="Friend function III - multiple friends.cpp" />
-    <ClCompile Include="OOP - Access functions and encapsulation.cpp" />
-    <ClCompile Include="OOP - class code and header files.cpp" />
-    <ClCompile Include="OOP - nested types in classes.cpp" />
-    <ClCompile Include="OOP constructor member initializer lists.cpp" />
-    <ClCompile Include="OOP constructors I.cpp" />
-    <ClCompile Include="OOP constructors II.cpp" />
-    <ClCompile Include="OOP constructors III.cpp" />
-    <ClCompile Include="OOP non static member initialization .cpp" />
-    <ClCompile Include="Overlapping and delegating constructors.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

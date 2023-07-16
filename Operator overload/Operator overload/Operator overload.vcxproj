@@ -19,7 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Overloading + and - operator friend function inside the class.cpp" />
+    <ClCompile Include="Overloading + and - operator friend function outside the class.cpp" />
+    <ClCompile Include="Overloading operators 3 varaints for objects and values.cpp" />
+    <ClCompile Include="Overloading operators of different types.cpp" />
+    <ClCompile Include="Overloading operators using normal functions.cpp" />
+    <ClCompile Include="Overloading the in operator.cpp" />
     <ClCompile Include="Overloading the increment and decrement operators.cpp" />
+    <ClCompile Include="Overloading the out operator.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
