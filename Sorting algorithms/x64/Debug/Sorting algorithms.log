@@ -1,0 +1,11 @@
+﻿  Bubble sort.cpp
+C:\Users\benz_\Source\Repos\Nauka-Cpp\Sorting algorithms\Bubble sort.cpp(8,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\benz_\Source\Repos\Nauka-Cpp\Sorting algorithms\Bubble sort.cpp(10,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\benz_\Source\Repos\Nauka-Cpp\Sorting algorithms\Bubble sort.cpp(14,14): warning C4244: "inicjowanie": konwersja z "_Ty" do "int", możliwa utrata danych
+          with
+          [
+              _Ty=__int64
+          ]
+C:\Users\benz_\Source\Repos\Nauka-Cpp\Sorting algorithms\Bubble sort.cpp(32,2): error C2664: „void bubbleSort(std::vector<__int64,std::allocator<__int64>> &)”: nie można dokonać konwersji argumentu 1 z „std::vector<int,std::allocator<int>>” do „std::vector<__int64,std::allocator<__int64>> &”
+C:\Users\benz_\Source\Repos\Nauka-Cpp\Sorting algorithms\Bubble sort.cpp(4,6): message : zobacz deklarację „bubbleSort”
+C:\Users\benz_\Source\Repos\Nauka-Cpp\Sorting algorithms\Bubble sort.cpp(32,2): message : podczas próby dopasowania listy argumentów "(std::vector<int,std::allocator<int>>)"
