@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stl heap.cpp" />
+    <ClCompile Include="stl make_heap.cpp" />
+    <ClCompile Include="stl sort.cpp" />
+    <ClCompile Include="stl_push_heap.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

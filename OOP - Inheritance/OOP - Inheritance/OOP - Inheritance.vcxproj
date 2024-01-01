@@ -19,7 +19,48 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Access controls work on a per-class basis.cpp" />
+    <ClCompile Include="Adding new functionality to a derived class.cpp" />
+    <ClCompile Include="Basic Inheritance.cpp" />
+    <ClCompile Include="Calling inherited functions and overriding behavior - redefine a function in a derived class.cpp" />
+    <ClCompile Include="Calling inherited functions and overriding behavior 1.cpp" />
+    <ClCompile Include="Calling inherited functions and overriding behaviour - calling friend classes .cpp.cpp" />
+    <ClCompile Include="Calling inherited functions and overriding behaviour 3.cpp" />
+    <ClCompile Include="Calling inherited functions and overriding behaviour I.cpp" />
+    <ClCompile Include="Calling inherited functions and overriding behaviour II.cpp" />
+    <ClCompile Include="Calling inherited functions and overriding behaviour III.cpp" />
+    <ClCompile Include="Calling inherited functions and overriding behaviour IV.cpp" />
+    <ClCompile Include="Classes and class members.cpp" />
+    <ClCompile Include="Constructor member initializer list 1.cpp" />
+    <ClCompile Include="Constructor member initializer list 2 - const members.cpp" />
+    <ClCompile Include="Constructor member initializer list 3 - initializing array members with member initializer lists.cpp" />
+    <ClCompile Include="Constructor member initializer list 4 - classes.cpp" />
+    <ClCompile Include="Constructors 2 with or without parameters.cpp" />
+    <ClCompile Include="Constructors 3 one constructor instead of two.cpp" />
+    <ClCompile Include="Constructors 4 default constructor.cpp" />
+    <ClCompile Include="Constructors and initialization of derived classes 1.cpp" />
+    <ClCompile Include="Constructors and initialization of derived classes 2.cpp" />
+    <ClCompile Include="Constructors and initialization of derived classes 3 - Inheritance chain.cpp" />
+    <ClCompile Include="Contructors 1.cpp" />
+    <ClCompile Include="Encapsulation 1 - set and get.cpp" />
+    <ClCompile Include="Encapsulation 2 - misuse.cpp" />
+    <ClCompile Include="Encapsulation 3 - proper use with a constructor.cpp" />
+    <ClCompile Include="Hidind inheritance - deleting functions in derived class.cpp" />
+    <ClCompile Include="Hiding inheritance - changing all access specifiers.cpp" />
+    <ClCompile Include="Hiding inherited functionality - making a public member private.cpp" />
+    <ClCompile Include="Inheritance - adding new functionality to derived class.cpp" />
+    <ClCompile Include="Inheritance - Hiding inherited functionality - using directive .cpp" />
+    <ClCompile Include="Inheritance - multiple inheritance I.cpp" />
+    <ClCompile Include="Inheritance - multiple inheritance II.cpp" />
+    <ClCompile Include="Inheritance and access specifiers - basics.cpp" />
+    <ClCompile Include="Inheritance and access specifiers - different kinds of access specifiers.cpp" />
+    <ClCompile Include="Inheritance I.cpp" />
+    <ClCompile Include="Mixing access specifiers.cpp" />
+    <ClCompile Include="Multiple inheritance - Curiously recurring template patern.cpp" />
+    <ClCompile Include="Multiple inheritance - double inheritance.cpp" />
+    <ClCompile Include="Multiple inheritance - mixins.cpp" />
     <ClCompile Include="Multiple inheritance - problems.cpp" />
+    <ClCompile Include="Order of construction of derived classes.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

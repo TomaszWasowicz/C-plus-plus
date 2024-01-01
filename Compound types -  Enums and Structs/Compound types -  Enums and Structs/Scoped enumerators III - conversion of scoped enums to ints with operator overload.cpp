@@ -13,7 +13,7 @@ enum class Animals
 };
 
 // Overload the unary + operator to convert Animals to the underlying type
-// adapted from https://stackoverflow.com/a/42198760, thanks to Pixelchemist for the idea
+// adapted from https://stackoverflow.com/a/42198760
 
 constexpr auto operator+(Animals a) noexcept
 {

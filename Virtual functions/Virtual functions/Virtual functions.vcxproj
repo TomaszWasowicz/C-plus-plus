@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pointers and references to the base class of derived objects.cpp" />
+    <ClCompile Include="Virtual functions - early binding.cpp" />
+    <ClCompile Include="Virtual functions - final.cpp" />
+    <ClCompile Include="Virtual functions - ignoring virtualization.cpp" />
+    <ClCompile Include="Virtual functions - late binding.cpp" />
+    <ClCompile Include="virtual functions - override.cpp" />
+    <ClCompile Include="virtual functions - overriding functions.cpp" />
+    <ClCompile Include="Virtual functions - Pointers and references to the base class of derived objects.cpp" />
+    <ClCompile Include="Virtual functions - virtual destructors.cpp" />
+    <ClCompile Include="Virtual functions and polymorphism - animals.cpp" />
+    <ClCompile Include="Virtual functions and polymorphism - basic explanation.cpp" />
+    <ClCompile Include="virtual functions I.cpp" />
+    <ClCompile Include="virtual functions II.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

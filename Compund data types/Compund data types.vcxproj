@@ -140,8 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lvalue 1.cpp" />
-    <ClCompile Include="rvalue 1.cpp" />
+    <ClCompile Include="lvalue reference and rvalue reference comparisment.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

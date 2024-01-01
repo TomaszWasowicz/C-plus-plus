@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>16.0</VCProjectVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{53c1f4e2-87d8-4b30-82fd-f751af42ba27}</ProjectGuid>
-    <RootNamespace>ARRAYS</RootNamespace>
+    <ProjectGuid>{e8a1eba7-2ddb-48e1-8781-0ea41b16a9fc}</ProjectGuid>
+    <RootNamespace>Arrays</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,7 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,6 +126,33 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Arrays - pointer arithmetic and array indexing.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Arrays - pointers and arrays - decay.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Arrays -c-style strings symbolic constants 1.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Arrays -c-style strings symbolic constants 2.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Arrays and loops - std array version.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Arrays and loops - vector version.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Arrays and off by - one errors.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\arrays, pointers, loops.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\C-stryle string - strcpy overflow.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\C-style strings - changing elements.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\C-style strings - overwriting the NULL terminator .cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\C-style strings - std cin.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\dynamic memory allocation.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Dynamic table with pointers arithetic.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Dynamically allocating arrays.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\for each loop 1.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\multidimensional std array.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\multidimensional std vector.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\passing an array to functions.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Pointers to pointers - dynamic allocating a array of pointers.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\Pointers to pointers and dynamic multidimensional arrays - 1.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\std sort.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\std string view changes in the viewed string.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\std string view length and substr.cpp" />
+    <ClCompile Include="..\..\..\..\Desktop\Arrays\void pointers 1.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
