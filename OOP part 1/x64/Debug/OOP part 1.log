@@ -1,2 +1,3 @@
-﻿  Nested types in classes.cpp
-  OOP part 1.vcxproj -> C:\Users\benz_\Source\Repos\Nauka-Cpp\OOP part 1\x64\Debug\OOP part 1.exe
+﻿  Copy Constructor.cpp
+D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\OOP part 1\Copy Constructor.cpp(13,18): warning C4267: "=": konwersja z "size_t" do "unsigned int", możliwa utrata danych
+  OOP part 1.vcxproj -> D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\OOP part 1\x64\Debug\OOP part 1.exe
