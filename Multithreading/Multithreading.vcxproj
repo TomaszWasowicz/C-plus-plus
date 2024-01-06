@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="std atomic.cpp" />
     <ClCompile Include="std lock guard.cpp" />
+    <ClCompile Include="std_mutex and lock_guard or unique_guard.cpp" />
+    <ClCompile Include="std_thread.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <thread>
 #include <mutex>
+#include<array>
 
 int counter = 0;
 std::mutex counterMutex;
@@ -18,16 +19,16 @@ int main()
 {
 	const int numThreads = 100;
 
-	std::thread threads[numThreads];
+	std::array<std::thread, numThreads> threads;
 
-	for (int i = 0; i < numThreads; i++)
+	for (auto &thread : threads)
 	{
-		threads[i] = std::thread(incrementCounter);
+		thread = std::thread(incrementCounter);
 	}
 
-	for (int i = 0; i < numThreads; i++)
+	for ( auto &thread : threads)
 	{
-		threads[i].join();
+		thread.join();
 	}
 
 	std::cout << "Final counter value: " << counter << std::endl;
