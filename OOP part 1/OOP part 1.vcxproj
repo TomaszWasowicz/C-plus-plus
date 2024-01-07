@@ -19,7 +19,51 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Access controls work on a per-class basis.cpp" />
+    <ClCompile Include="Anonymous object.cpp" />
+    <ClCompile Include="Anonymous object2.cpp" />
+    <ClCompile Include="Constructors - explicit keyword.cpp" />
     <ClCompile Include="Constructors - return by value and explicit constructors.cpp" />
+    <ClCompile Include="Converting constructors - wrong approach.cpp" />
+    <ClCompile Include="Converting constructors.cpp" />
+    <ClCompile Include="Converting parameters for a Constructor.cpp" />
+    <ClCompile Include="Copy Construcor - Copy Elision in pass by value and return by value.cpp" />
+    <ClCompile Include="Copy constructor - Copy Elision.cpp" />
+    <ClCompile Include="Copy constructor - invoking a DEFAULT copy constructor.cpp" />
+    <ClCompile Include="Copy Constructor.cpp" />
+    <ClCompile Include="Copy Contructor - defining my own copy constructor.cpp" />
+    <ClCompile Include="Default constructor with a default keyword.cpp" />
+    <ClCompile Include="Default Constructors.cpp" />
+    <ClCompile Include="Delegating constructors.cpp" />
+    <ClCompile Include="Destructors I.cpp" />
+    <ClCompile Include="Destructors II.cpp" />
+    <ClCompile Include="Encapsulation - Access functions.cpp" />
+    <ClCompile Include="Encapsulation.cpp" />
+    <ClCompile Include="Friend function I.cpp" />
+    <ClCompile Include="Friend function II - bool check.cpp" />
+    <ClCompile Include="Friend function III - multiple friends.cpp" />
+    <ClCompile Include="Initilization list for const and reference.cpp" />
+    <ClCompile Include="Member variables that are classes.cpp" />
+    <ClCompile Include="Mixing access specifiers.cpp" />
+    <ClCompile Include="Nested types in classes.cpp" />
+    <ClCompile Include="No default constructor and no object initialized - undefined behaviour.cpp" />
+    <ClCompile Include="Non static member initialization.cpp" />
+    <ClCompile Include="Non-static member initialization.cpp" />
+    <ClCompile Include="Normal member function for setup.cpp" />
+    <ClCompile Include="OOP - Access functions and encapsulation.cpp" />
+    <ClCompile Include="OOP - class code and header files.cpp" />
+    <ClCompile Include="OOP - nested types in classes.cpp" />
+    <ClCompile Include="OOP constructor member initializer lists.cpp" />
+    <ClCompile Include="OOP constructors I.cpp" />
+    <ClCompile Include="OOP constructors II.cpp" />
+    <ClCompile Include="OOP constructors III.cpp" />
+    <ClCompile Include="OOP non static member initialization .cpp" />
+    <ClCompile Include="Overlapping and delegating constructors.cpp" />
+    <ClCompile Include="Overloading const and non-const function.cpp" />
+    <ClCompile Include="Resetting a class.cpp" />
+    <ClCompile Include="static member variables.cpp" />
+    <ClCompile Include="THIS operator.cpp" />
+    <ClCompile Include="Timing your code.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
