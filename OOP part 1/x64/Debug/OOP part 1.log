@@ -1,3 +1,2 @@
-﻿  Copy Contructor - defining my own copy constructor.cpp
-D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\OOP part 1\Copy Contructor - defining my own copy constructor.cpp(18,39): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
-D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\OOP part 1\Copy Contructor - defining my own copy constructor.cpp(18,45): warning C4183: FRaction”: Brak typu zwracanego; założono, że jest funkcją składową zwracającą „int”
+﻿  Constructors - explicit keyword.cpp
+  OOP part 1.vcxproj -> D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\OOP part 1\x64\Debug\OOP part 1.exe

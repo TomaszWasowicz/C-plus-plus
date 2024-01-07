@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Copy Contructor - defining my own copy constructor.cpp">
+    <ClCompile Include="Constructors - return by value and explicit constructors.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
