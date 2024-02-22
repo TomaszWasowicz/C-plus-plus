@@ -1,4 +1,1 @@
-﻿  std_weak solving circular ownership.cpp
-D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\Move semantics and smart pointers\Move semantics and smart pointers\std_weak solving circular ownership.cpp(22,47): warning C4227: użyto konstrukcji przestarzałej: kwalifikatory dla odwołania są ignorowane
-D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\Move semantics and smart pointers\Move semantics and smart pointers\std_weak solving circular ownership.cpp(22,82): warning C4227: użyto konstrukcji przestarzałej: kwalifikatory dla odwołania są ignorowane
-  Move semantics and smart pointers.vcxproj -> D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\Move semantics and smart pointers\x64\Debug\Move semantics and smart pointers.exe
+﻿  Move semantics and smart pointers.vcxproj -> D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\Move semantics and smart pointers\x64\Debug\Move semantics and smart pointers.exe

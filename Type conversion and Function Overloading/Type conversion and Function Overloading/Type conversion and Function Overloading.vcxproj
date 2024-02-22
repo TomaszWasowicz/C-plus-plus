@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClCompile Include="Numeric conversions.cpp" />
     <ClCompile Include="Arithmetic conversions.cpp" />
+    <ClCompile Include="Typedef.cpp" />
+    <ClCompile Include="using keyword.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -28,6 +30,7 @@
     <ProjectGuid>{86b2418b-556f-4e9d-bdec-0ca0c5be0f3a}</ProjectGuid>
     <RootNamespace>TypeconversionandFunctionOverloading</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Type conversion, Type aliases and Type Deduction</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
