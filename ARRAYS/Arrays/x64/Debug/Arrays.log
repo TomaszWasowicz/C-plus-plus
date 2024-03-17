@@ -1,0 +1,3 @@
+﻿  std_array length and indexing.cpp
+D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\ARRAYS\std_array length and indexing.cpp(24,34): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+  Arrays.vcxproj -> D:\najwazniejsze\Dokumenty Tomka\Programowanie\Github\C-plus-plus\ARRAYS\x64\Debug\Arrays.exe
