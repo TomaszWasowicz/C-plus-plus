@@ -1,20 +1,28 @@
-#include <functional> // for std::reference_wrapper
 #include <iostream>
-#include <optional> // for std::optional (C++17)
-#include <string>
+#include <optional>		//std::optional C++17
 
-void greet(std::optional<std::reference_wrapper<const std::string>> name = std::nullopt) // yuck
+std::optional<int> doIntDivsion(int x, int y)
 {
-    std::cout << "Hello ";
-    std::cout << (name ? name->get() : "guest") << '\n'; // must use name->get() here instead of *name
+	if (y == 0)
+		return {};		//or return std::nullopt
+	return x / y;
 }
 
 int main()
 {
-    greet();
+	std::optional<int> result1{ doIntDivsion(20,5) };
 
-    std::string joe{ "Joe" };
-    greet(joe); // no need to take address here
+	if (result1)
+		std::cout << "Result 1: " << *result1 << '\n';
+	else
+		std::cout << "Result 1: failed\n";
 
-    return 0;
+	std::optional<int> result2{ doIntDivsion(5,0) };
+
+	if (result2)
+		std::cout << "Result 2: " << *result2 << '\n';
+	else
+		std::cout << "Result 2: failed\n";
+
+	return 0;
 }

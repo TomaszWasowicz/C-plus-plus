@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Lvalue References and Pointers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DDE08FE-B68E-4CAF-A6D8-B8AC18A0D2CE}|Lvalue References and Pointers.vcxproj|D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Lvalue References and Pointers\\std_optional.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3DDE08FE-B68E-4CAF-A6D8-B8AC18A0D2CE}|Lvalue References and Pointers.vcxproj|solutionrelative:std_optional.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3DDE08FE-B68E-4CAF-A6D8-B8AC18A0D2CE}|Lvalue References and Pointers.vcxproj|D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Lvalue References and Pointers\\std_optional_pass_by_reference_wrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3DDE08FE-B68E-4CAF-A6D8-B8AC18A0D2CE}|Lvalue References and Pointers.vcxproj|solutionrelative:std_optional_pass_by_reference_wrapper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "std_optional.cpp",
-              "DocumentMoniker": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Lvalue References and Pointers\\std_optional.cpp",
-              "RelativeDocumentMoniker": "std_optional.cpp",
-              "ToolTip": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Lvalue References and Pointers\\std_optional.cpp",
-              "RelativeToolTip": "std_optional.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Title": "std_optional_pass_by_reference_wrapper.cpp",
+              "DocumentMoniker": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Lvalue References and Pointers\\std_optional_pass_by_reference_wrapper.cpp",
+              "RelativeDocumentMoniker": "std_optional_pass_by_reference_wrapper.cpp",
+              "ToolTip": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Lvalue References and Pointers\\std_optional_pass_by_reference_wrapper.cpp",
+              "RelativeToolTip": "std_optional_pass_by_reference_wrapper.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-24T10:08:09.214Z",
+              "WhenOpened": "2024-03-24T20:15:23.952Z",
               "EditorCaption": ""
             }
           ]
