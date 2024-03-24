@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="std_optional.cpp">
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdcpp20</LanguageStandard>
+      <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp20</LanguageStandard>
+    </ClCompile>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,19 +132,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Lvalue reference - pass by const reference.cpp" />
-    <ClCompile Include="Lvalue references - cant be reseated.cpp" />
-    <ClCompile Include="Lvalue references - dangling references.cpp" />
-    <ClCompile Include="Lvalue refernces - pass by reference.cpp" />
-    <ClCompile Include="Lvalue refernces - pass by value.cpp" />
-    <ClCompile Include="Pointers 1 - dereference.cpp" />
-    <ClCompile Include="Pointers 2 - initializing.cpp" />
-    <ClCompile Include="Pointers 3 - assignment.cpp" />
-    <ClCompile Include="Pointers 4 - adress of operator returns a pointer.cpp" />
-    <ClCompile Include="Pointers 5 - size of pointers.cpp" />
-    <ClCompile Include="VariableShadowing.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
