@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\invalidated iterators.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|solutionrelative:Iterators\\invalidated iterators.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find_if.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|solutionrelative:Iterators\\std_find_if.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "invalidated iterators.cpp",
-              "DocumentMoniker": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\invalidated iterators.cpp",
-              "RelativeDocumentMoniker": "Iterators\\invalidated iterators.cpp",
-              "ToolTip": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\invalidated iterators.cpp",
-              "RelativeToolTip": "Iterators\\invalidated iterators.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Title": "std_find_if.cpp",
+              "DocumentMoniker": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find_if.cpp",
+              "RelativeDocumentMoniker": "Iterators\\std_find_if.cpp",
+              "ToolTip": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find_if.cpp",
+              "RelativeToolTip": "Iterators\\std_find_if.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-31T19:25:03.712Z",
+              "WhenOpened": "2024-04-02T20:34:15.177Z",
               "EditorCaption": ""
             }
           ]
