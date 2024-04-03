@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|solutionrelative:Iterators\\std_find.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_count_if.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|solutionrelative:Iterators\\std_count_if.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find_if.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|solutionrelative:Iterators\\std_find_if.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{009D83A2-21DE-4704-A4B3-B80885AF5F18}|Iterators\\Iterators.vcxproj|solutionrelative:Iterators\\std_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "std_count_if.cpp",
+              "DocumentMoniker": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_count_if.cpp",
+              "RelativeDocumentMoniker": "Iterators\\std_count_if.cpp",
+              "ToolTip": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_count_if.cpp",
+              "RelativeToolTip": "Iterators\\std_count_if.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-03T15:36:07.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "std_find.cpp",
+              "DocumentMoniker": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find.cpp",
+              "RelativeDocumentMoniker": "Iterators\\std_find.cpp",
+              "ToolTip": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find.cpp",
+              "RelativeToolTip": "Iterators\\std_find.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-03T15:35:47.103Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -34,15 +72,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "std_find_if.cpp",
               "DocumentMoniker": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find_if.cpp",
               "RelativeDocumentMoniker": "Iterators\\std_find_if.cpp",
               "ToolTip": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_find_if.cpp",
               "RelativeToolTip": "Iterators\\std_find_if.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-02T20:34:15.177Z",
+              "WhenOpened": "2024-04-03T15:35:40.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "std_sort.cpp",
+              "DocumentMoniker": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_sort.cpp",
+              "RelativeDocumentMoniker": "Iterators\\std_sort.cpp",
+              "ToolTip": "D:\\najwazniejsze\\Dokumenty Tomka\\Programowanie\\Github\\C-plus-plus\\Iterators\\Iterators\\std_sort.cpp",
+              "RelativeToolTip": "Iterators\\std_sort.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-03T15:31:09.251Z",
               "EditorCaption": ""
             }
           ]

@@ -15,7 +15,7 @@ int main()
 
 	//std::find returns an iterator pointing to the found element or the end of the container
 
-	auto found{ std::ranges::find(arr.begin(), arr.end(), search) };
+	auto found{ std::ranges::find(arr, search) };
 
 	if (found == arr.end())
 	{

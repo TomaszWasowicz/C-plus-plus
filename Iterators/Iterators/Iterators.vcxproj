@@ -19,7 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="pointer as interator.cpp" />
+    <ClCompile Include="standard librabry iterators.cpp" />
+    <ClCompile Include="std_count_if.cpp" />
+    <ClCompile Include="std_find.cpp" />
     <ClCompile Include="std_find_if.cpp" />
+    <ClCompile Include="std_sort.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
