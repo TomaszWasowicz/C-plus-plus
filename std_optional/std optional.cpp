@@ -1,50 +1,25 @@
+#include <iostream>
 #include <optional>
-#include <string>
 
-std::string stringify(int v)
+std::optional<int> doIntDivision(int x, int y)
 {
-    return std::to_string(v);
-}
+	if (y == 0)
+		return {};   //or return std::nullopt
+	return x / y;
+}	
 
-int integrify(const std::string& s)
+int main()
 {
-    return std::stoi(s);
+	if (std::optional<int> result1{ doIntDivision(20,5) }; result1)
+		std::cout << "Result 1: " << *result1 << '\n';
+	else
+		std::cout << "Result 1: failed\n ";
+
+
+	if (std::optional<int> result2{ doIntDivision(5,0) }; result2)
+		std::cout << "Result 2: " << *result2 << '\n';
+	else
+		std::cout << "Result 2: failed\n";
+
+	return 0;
 }
-
-std::optional<int> fetch_from_db()
-{
-    return 42;
-}
-
-std::optional<int> x;
-
-auto r1 = x.transform(stringify).transform(integrify);
-
-x = 42;
-
-auto r2 = x.transform(stringify).transform(integrify);
-
-auto r3 = x.and_then([](int x) -> std::optional<std::string> {
-    if (x == 42)
-        return std::optional<std::string>("Answer to the ultimate question");
-    else
-        return std::nullopt;
-    });
-
-x = std::nullopt;
-auto r4 = x.or_else(fetch_from_db);
-
-auto r5 = fetch_from_db().or_else([]() -> std::optional<int> {
-    return std::optional<int>(42);
-    }).transform([](int x) -> double {
-        return x * x;
-        }).and_then([](double x) -> std::optional<std::string> {
-            if (x > 0) {
-                return std::optional<std::string>("42");
-            }
-            else {
-                return std::nullopt;
-            }
-            }).or_else([]() -> std::optional<std::string> {
-                return std::optional<std::string>("Empty");
-                });

@@ -30,6 +30,8 @@ public:
 		}
 	}
 
+
+
 	~IntArray()
 	{
 		//no need to set m_data to null or M-length to 0, object will be destroyed after this function
