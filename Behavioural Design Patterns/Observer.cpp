@@ -1,3 +1,17 @@
+/*
+Explanation
+
+This design ensures that the subject and observers are loosely coupled, 
+promoting reusability and scalability.
+
+The Observer pattern consists of:
+
+1.Subject: Maintains a list of observers and notifies them of any changes.
+2.Observer: Defines an interface for objects that need to be notified.
+3.ConcreteSubject: Implements the Subject interface.
+4.ConcreteObserver: Implements the Observer interface.
+*/
+
 #include <iostream>
 #include <vector>
 #include <memory>

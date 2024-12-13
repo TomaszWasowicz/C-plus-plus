@@ -1,3 +1,17 @@
+/*
+Explanation
+
+The State pattern allows an object to change its behavior dynamically 
+depending on its internal state. 
+The object maintains a reference to a state object and delegates its behavior to the state.
+
+Components
+
+1.State Interface: Declares behavior for each state.
+2.ConcreteState: Implements behavior associated with the state.
+3.Context: Maintains a reference to a State object and delegates functionality to the state.
+*/
+
 #include <iostream>
 #include <memory>
 
