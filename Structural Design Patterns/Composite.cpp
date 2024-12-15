@@ -2,6 +2,14 @@
 Composite is used to treat individual objects and compositions of objects uniformly. 
 It’s commonly used to represent tree structures, such as file systems or UI components.
 In this example, it is represented by a simple file system with folders and files
+
+Explanation
+
+1. Component: FileSystemEntity is the abstract base class. It defines the common interface (display).
+2. Leaf: File represents a single, indivisible object in the hierarchy.
+3. Composite: Folder is a composite that can hold both File and other Folder objects, managing them uniformly.
+4. Client: The main function builds a tree-like structure of folders and files 
+and uses the display method to recursively print the hierarchy.
 */
 
 #include <iostream>
