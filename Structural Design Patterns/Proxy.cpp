@@ -28,7 +28,7 @@ public:
 //Proxy
 class Proxy : public Subject {
 private:
-	RealSubject* realSubject; // Holds a reference RealSubject instance
+	std::unique_ptr<RealSubject> realSubject; // Holds a reference RealSubject instance
 	bool hasAccess;			// Flag to simulate access control
 
 	bool checkAccess() const {
@@ -41,8 +41,7 @@ private:
 	}
 
 public:
-	Proxy(bool  access) : realSubject(new RealSubject), hasAccess(access) {}
-	~Proxy() { delete realSubject; } // to ensure a proper cleanup
+	explicit Proxy(bool access) : hasAccess(access) {realSubject = std::make_unique<RealSubject>();}
 
 	void request() const override {
 		if (checkAccess()) {
