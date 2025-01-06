@@ -46,7 +46,7 @@ public:
         if (it != context.end()) {
             return it->second;
         }
-        throw std::runtime_error("Variable not found in context: " + name);
+        throw std::invalid_argument("Variable not found in context: " + name);
     }
 };
 
