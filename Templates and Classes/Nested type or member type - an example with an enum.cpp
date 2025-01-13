@@ -17,24 +17,20 @@ private:
 	int m_percentageEaten{ 0 };
 
 public:
-	Fruit(Type type) :
-		m_type{ type }
-	{
-	}
+	explicit Fruit(Type type) : m_type{ type }{}
 
-	Type getType() { return m_type; }
-	int getPercentageEaten() { return m_percentageEaten; }
+	Type getType() const { return m_type; }
+	int getPercentageEaten() const { return m_percentageEaten; }
 
 	// Inside members of Fruit, it's not needed to have a prefix enumerators with FruitType::
-	bool isCherry() { return m_type == cherry; } 
+	bool isCherry() const { return m_type == cherry; } 
 };
 
 int main()
 {
 	// Note: Outside the class, we have to access the enumerators via the Fruit:: prefix now
-	Fruit apple{ Fruit::apple };
 
-	if (apple.getType() == Fruit::apple)
+	if (Fruit apple{ Fruit::apple }; apple.getType() == Fruit::apple)
 		std::cout << "I am an apple";
 	else
 		std::cout << "I am not an apple";
