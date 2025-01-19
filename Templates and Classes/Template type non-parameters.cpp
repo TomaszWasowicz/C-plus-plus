@@ -1,11 +1,12 @@
 #include <iostream>
+#include<array>
 
 template<typename T, int size>  // size is an integral non-type parameter
 class StaticArray
 {
 private:
 	//the non-type parameter controls the size of the array
-	T m_array[size]{};
+	std::array<T, size> m_array{};
 
 public:
 	T* getArray();
@@ -16,12 +17,11 @@ public:
 	}
 };
 
-//Showing how a function for a class with a non-type parameter
-//is defined outise pof the class
+//function for a class with a non-type parameter is defined outise of the class
 template <typename T, int size>
 T* StaticArray<T, size>::getArray()
 {
-	return m_array;
+	return m_array.data(); //to get a pointer to the array
 }
 
 int main()
