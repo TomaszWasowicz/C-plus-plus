@@ -6,7 +6,7 @@ class Storage
 private:
 	T m_value{};
 public:
-	Storage(T value) : m_value{value}{}
+	explicit Storage(T value) : m_value{value}{}
 
 	void print()
 	{
