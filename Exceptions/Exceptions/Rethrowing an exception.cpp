@@ -25,7 +25,8 @@ int main()
         {
             std::cout << "Caught Base b, which is actually a ";
             b.print();
-            std::cout // now rethrowing the object here
+            std::cout << '\n'; // now rethrowing the object here
+            throw;
         }
     }
     catch (Base& b)
